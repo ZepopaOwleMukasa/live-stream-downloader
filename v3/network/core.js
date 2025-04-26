@@ -21,7 +21,7 @@ const network = {
   // the headers that need to be recorded
   HEADERS: ['content-length', 'content-range', 'accept-ranges', 'content-type', 'content-disposition'],
   // HOST
-  LIST: 'https://cdn.jsdelivr.net/gh/chandler-stimson/live-stream-downloader@latest/v3/network/blocked.json',
+  LIST: 'https://raw.githubusercontent.com/ZepopaOwleMukasa/live-stream-downloader/refs/heads/master/v3/network/blocked.json',
   // Cache name
   NAME: 'network.persistent'
 };
