@@ -112,11 +112,6 @@ const badge = (n, tabId) => {
 };
 
 const observe = d => {
-  // hard-coded excludes
-  if (d.initiator && d.initiator.startsWith('https://www.youtube.com')) {
-    return;
-  }
-
   // unsupported content types
   if (
     d.url.includes('.m3u8') === false &&
